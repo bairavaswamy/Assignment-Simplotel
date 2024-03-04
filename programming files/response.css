@@ -1,0 +1,316 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Roboto";
+}
+
+
+@media screen and (max-width:425px) {
+    .outer-container{
+        background-image: linear-gradient(to right,#FFE4C0,#FFB5EE);
+        min-height: 100vh;
+        min-width: 100vw;
+    }
+
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .images-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .name-card-response{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 10px;
+        background-color: #FF7171;
+    }
+    .clickme{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 19px;
+        cursor: pointer;
+    }
+    .double-img{
+        display: flex;
+        flex-direction: column;
+    }
+    .stage-img{
+        width: 100%;
+        height: auto;
+    }
+    .street-img{
+        width: 100%;
+        height: auto;
+    }
+    .food-img{
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media screen and (min-width:426px) and (max-width:768px) {
+    .outer-container{
+        background-image: linear-gradient(to right,#FFE4C0,#FFB5EE);
+        min-height: 100vh;
+        min-width: 100%;
+        padding: 20px;
+    }
+
+    .flex-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .images-container{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .name-card-response{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        justify-content: center;
+        background-color: #FF7171;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .clickme{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 19px;
+        cursor: pointer;
+    }
+    .double-img{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .stage-img{
+        width: 200px;
+        height: 180px;
+        order: 2;
+    }
+    .street-img{
+        width: 200px;
+        height: 180px;
+        order: 1;
+    }
+    .food-img{
+        width: 200px;
+        height: 180px;
+    }
+
+}
+
+
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .outer-container{
+        background-image: linear-gradient(to right,#FFE4C0,#FFB5EE);
+        min-height: 100vh;
+        min-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .flex-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .images-container{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    .name-card-response{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+        justify-content: space-between;
+        background-color: #FF7171;
+        margin-left: 20px;
+        height: 200px;
+        width:300px;
+    }
+    .clickme{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 19px;
+        cursor: pointer;
+    }
+    .double-img{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .stage-img{
+        width: 200px;
+        height: 180px;
+    }
+    .street-img{
+        width: 200px;
+        height: 180px;
+    }
+    .food-img{
+        width: 200px;
+        height: 380px;
+    }
+
+}
+
+@media screen and (min-width:1025px) and (max-width:1440px) {
+    .outer-container{
+        background-image: linear-gradient(to right,#FFE4C0,#FFB5EE);
+        min-height: 100vh;
+        min-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .flex-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 100%;
+        align-items: center;
+        gap: 40px;
+        
+    }
+
+    .images-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+    }
+    .name-card-response{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+        justify-content: space-between;
+        background-color: #FF7171;
+        margin-left: 20px;
+        height: 200px;
+        width:300px;
+    }
+    .clickme{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 19px;
+        cursor: pointer;
+    }
+    .double-img{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .stage-img{
+        width: 300px;
+        height: 220px;
+    }
+    .street-img{
+        width: 300px;
+        height: 220px;
+    }
+    .food-img{
+        width: 300px;
+        height: 460px;
+    }
+
+}
+
+
+
+@media screen and (min-width:1440px) {
+    .outer-container{
+        background-image: linear-gradient(to right,#FFE4C0,#FFB5EE);
+        min-height: 100vh;
+        min-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .flex-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 100%;
+        align-items: center;
+        gap: 40px;
+        
+    }
+
+    .images-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+    }
+    .name-card-response{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+        justify-content: space-between;
+        background-color: #FF7171;
+        margin-left: 20px;
+        height: 200px;
+        width:300px;
+    }
+    .clickme{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 19px;
+        cursor: pointer;
+    }
+    .double-img{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .stage-img{
+        width: 300px;
+        height: 220px;
+    }
+    .street-img{
+        width: 300px;
+        height: 220px;
+    }
+    .food-img{
+        width: 300px;
+        height: 460px;
+    }
+
+}
+
